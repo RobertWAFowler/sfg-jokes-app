@@ -4,7 +4,7 @@
 
     <groupId>com.zenhog</groupId>
     <artifactId>springboot5-jokes-app</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <modules>
         <module>springboot5-jokes-app-web</module>
     </modules>
@@ -46,7 +46,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:RobertWAFowler/springboot5-jokes-app.git</developerConnection>
-        <tag>springboot5-jokes-app-0.0.1</tag>
+        <tag>springboot5-jokes-app-0.0.2</tag>
     </scm>
 
 
