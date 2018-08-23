@@ -4,7 +4,7 @@
 
     <groupId>com.zenhog</groupId>
     <artifactId>sfg-jokes-app</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4-SNAPSHOT</version>
     <modules>
         <module>sfg-jokes-app-web</module>
     </modules>
@@ -46,7 +46,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:RobertWAFowler/sfg-jokes-app.git</developerConnection>
-        <tag>sfg-jokes-app-0.0.3</tag>
+        <tag>springboot5-jokes-app-0.0.1</tag>
     </scm>
 
 
