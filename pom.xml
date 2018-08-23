@@ -4,7 +4,7 @@
 
     <groupId>com.zenhog</groupId>
     <artifactId>springboot5-jokes-app</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <modules>
         <module>springboot5-jokes-app-web</module>
     </modules>
@@ -39,6 +39,12 @@
                     <goals>install</goals>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.maven.scm</groupId>
+                        <artifactId>maven-scm-api</artifactId>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
