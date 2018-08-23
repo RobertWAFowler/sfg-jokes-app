@@ -20,6 +20,7 @@ public class JokesController {
     @RequestMapping("/jokes")
     public String getJokes(Model model) {
 
+        model.addAttribute("joke", jokesService.getJoke());
         return "jokes";
     }
 }
