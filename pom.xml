@@ -4,7 +4,7 @@
 
     <groupId>com.zenhog</groupId>
     <artifactId>springboot5-jokes-app</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>springboot5-jokes-app-web</module>
     </modules>
