@@ -3,15 +3,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zenhog</groupId>
-    <artifactId>springboot5-jokes-app</artifactId>
+    <artifactId>sfg-jokes-app</artifactId>
     <version>0.0.3-SNAPSHOT</version>
     <modules>
-        <module>springboot5-jokes-app-web</module>
+        <module>sfg-jokes-app-web</module>
     </modules>
     <packaging>pom</packaging>
 
-    <name>springboot5-jokes-app</name>
-    <description>Spring Boot5 Jokes App Assignment</description>
+    <name>sfg-jokes-app</name>
+    <description>Spring Framework Guru Jokes App Assignment</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -45,7 +45,7 @@
     </build>
 
     <scm>
-        <developerConnection>scm:git:git@github.com:RobertWAFowler/springboot5-jokes-app.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:RobertWAFowler/sfg-jokes-app.git</developerConnection>
         <tag>springboot5-jokes-app-0.0.1</tag>
     </scm>
 
