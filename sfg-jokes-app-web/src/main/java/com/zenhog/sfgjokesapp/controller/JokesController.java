@@ -17,10 +17,11 @@ public class JokesController {
         this.jokesService = jokesService;
     }
 
-    @RequestMapping("/jokes")
+    @RequestMapping({"/jokes","/",""})
     public String getJokes(Model model) {
 
         model.addAttribute("joke", jokesService.getJoke());
-        return "jokes";
+
+        return "chucknorris";
     }
 }
