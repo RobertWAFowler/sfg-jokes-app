@@ -1,4 +1,4 @@
-package com.zenhog.sfgjokesapp.service;
+package com.zenhog.sfgjokesapp.services;
 
 import org.junit.Before;
 import org.junit.Test;

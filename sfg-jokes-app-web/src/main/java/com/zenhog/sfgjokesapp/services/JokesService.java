@@ -1,4 +1,4 @@
-package com.zenhog.sfgjokesapp.service;
+package com.zenhog.sfgjokesapp.services;
 
 public interface JokesService {
 

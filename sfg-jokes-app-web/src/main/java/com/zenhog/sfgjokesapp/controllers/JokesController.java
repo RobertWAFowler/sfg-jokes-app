@@ -1,6 +1,6 @@
-package com.zenhog.sfgjokesapp.controller;
+package com.zenhog.sfgjokesapp.controllers;
 
-import com.zenhog.sfgjokesapp.service.JokesService;
+import com.zenhog.sfgjokesapp.services.JokesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

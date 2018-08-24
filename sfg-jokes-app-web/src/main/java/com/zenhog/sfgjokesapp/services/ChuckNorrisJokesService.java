@@ -1,4 +1,4 @@
-package com.zenhog.sfgjokesapp.service;
+package com.zenhog.sfgjokesapp.services;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.context.annotation.Primary;
@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Primary
 public class ChuckNorrisJokesService implements JokesService {
 
-    private ChuckNorrisQuotes chuckNorrisQuotes;
+    private final ChuckNorrisQuotes chuckNorrisQuotes;
 
     public ChuckNorrisJokesService() {
         this.chuckNorrisQuotes = new ChuckNorrisQuotes();
