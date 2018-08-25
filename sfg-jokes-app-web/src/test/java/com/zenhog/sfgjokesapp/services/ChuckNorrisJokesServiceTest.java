@@ -1,5 +1,6 @@
 package com.zenhog.sfgjokesapp.services;
 
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +12,7 @@ public class ChuckNorrisJokesServiceTest {
 
     @Before
     public void setUp() throws Exception {
-        this.jokesService = new ChuckNorrisJokesService();
+        this.jokesService = new ChuckNorrisJokesService(new ChuckNorrisQuotes());
     }
 
     @Test

@@ -12,8 +12,9 @@ public class ChuckNorrisJokesService implements JokesService {
 
     private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-    public ChuckNorrisJokesService() {
-        this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+    public ChuckNorrisJokesService(ChuckNorrisQuotes chuckNorrisQuotes) {
+
+        this.chuckNorrisQuotes = chuckNorrisQuotes;
     }
 
     @Override
